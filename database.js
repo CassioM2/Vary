@@ -41,6 +41,8 @@ ChatContador: {type: String, default: 'Nenhum'},
 AntiInvite: {type: Boolean, default: false},
 AutoRole: {type: Boolean, default: false},
 AutoRoleID: {type: String, default: "Nenhum"},
+IgnoreChannel: {type: String, default: ""},
+IgnoreMembersChannel: {type: String, default: ""}  
 })
 
 const Keys = new Schema({
